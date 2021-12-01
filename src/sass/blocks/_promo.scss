@@ -26,7 +26,7 @@
     }
     &__icons {
         margin-top: 60px;
-        width: 424px;
+        max-width: 424px;
         display: flex;
         justify-content: space-between;
     }
@@ -40,6 +40,7 @@
         img {
             display: block;
             margin: 0 auto 20px;
+            height: 42px;
         }
     }
     &__link {
@@ -51,6 +52,42 @@
             color: #ffffff;
             text-decoration: underline;
             text-transform: uppercase;
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .promo {
+        &__wrapper {
+            align-items: center;    
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .promo {
+        min-height: 540px;
+        padding-bottom: 40px;
+        &__wrapper {
+            margin-top: 60px;
+        }
+        &__header {
+            font-size: 25px;
+        }
+        &__subheader {
+            margin-top: 10px;
+            font-size: 14px;
+        }
+        &__icon {
+            font-size: 12px;    
+        }
+        &__button {
+            width: 250px;
+            height: 45px;
+            font-size: 13px;
+        }
+        &__link {
+            font-size: 13px;
         }
     }
 }
