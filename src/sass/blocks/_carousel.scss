@@ -29,8 +29,20 @@
     .tns-horizontal.tns-subpixel>.tns-item {
         vertical-align: middle;
         img {
+            width: 79%;
             display: block;
             margin: 0 auto;
         }
     }
+}
+
+@media (max-width: 576px) {
+    .carousel {
+        [data-controls="prev"], [data-controls="next"] {
+            height: 100%;
+            img {
+                height: 35px;
+            }
+        }
+    }    
 }
