@@ -1,0 +1,33 @@
+.feed {
+    padding: 0 0 60px;
+    &__item {
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;    
+    }
+    &__thumbnail {
+        width: 169px;
+        height: 169px;
+        margin-right: 60px;
+        border-radius: 100%;
+    }
+    &__text {
+        max-width: 680px;
+        color: #0d0d0d;
+    }
+    &__name {
+        font-weight: 700;
+        font-size: 18px;
+    }
+    &__achievements {
+        font-weight: 500;
+        font-size: 14px;
+        color: #646464;
+    }
+    &__descr {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 25px;
+        margin-top: 10px;
+    }
+}
