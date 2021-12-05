@@ -197,15 +197,13 @@
 
 @media (max-width: 576px) {
     .catalog {
-        &__title {
-            font-size: 23px;
-        }
+        padding-bottom: 50px;
         &__tab {
             width: 85px;
             font-size: 9px;
         }
         &-item {
-            margin-left: 0;
+            margin: 0 0 20px;
         }
         &__tabs {
             margin-top: 50px;
