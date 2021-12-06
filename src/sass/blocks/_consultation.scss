@@ -8,6 +8,14 @@
         line-height: 30px;
         color: #ffffff;
     }
+    .error {
+        border: 1px solid red;
+    }
+    label.error {
+        border: none;
+        margin: -15px 0 15px;
+        color: #fff;
+    }
 }
 
 @media (max-width: 921px) {
